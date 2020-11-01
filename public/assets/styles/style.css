@@ -1,0 +1,188 @@
+/* baloo-tammudu-2-regular - latin */
+@font-face {
+  font-family: 'Baloo Tammudu 2';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/baloo-tammudu-2-v1-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Baloo Tammudu 2 Regular'), local('BalooTammudu2-Regular'),
+       url('../fonts/baloo-tammudu-2-v1-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/baloo-tammudu-2-v1-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/baloo-tammudu-2-v1-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/baloo-tammudu-2-v1-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/baloo-tammudu-2-v1-latin-regular.svg#BalooTammudu2') format('svg'); /* Legacy iOS */
+}
+/* baloo-tammudu-2-500 - latin */
+@font-face {
+  font-family: 'Baloo Tammudu 2';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/baloo-tammudu-2-v1-latin-500.eot'); /* IE9 Compat Modes */
+  src: local('Baloo Tammudu 2 Medium'), local('BalooTammudu2-Medium'),
+       url('../fonts/baloo-tammudu-2-v1-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/baloo-tammudu-2-v1-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/baloo-tammudu-2-v1-latin-500.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/baloo-tammudu-2-v1-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/baloo-tammudu-2-v1-latin-500.svg#BalooTammudu2') format('svg'); /* Legacy iOS */
+}
+/* baloo-tammudu-2-600 - latin */
+@font-face {
+  font-family: 'Baloo Tammudu 2';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/baloo-tammudu-2-v1-latin-600.eot'); /* IE9 Compat Modes */
+  src: local('Baloo Tammudu 2 SemiBold'), local('BalooTammudu2-SemiBold'),
+       url('../fonts/baloo-tammudu-2-v1-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/baloo-tammudu-2-v1-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/baloo-tammudu-2-v1-latin-600.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/baloo-tammudu-2-v1-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/baloo-tammudu-2-v1-latin-600.svg#BalooTammudu2') format('svg'); /* Legacy iOS */
+}
+/* baloo-tammudu-2-700 - latin */
+@font-face {
+  font-family: 'Baloo Tammudu 2';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/baloo-tammudu-2-v1-latin-700.eot'); /* IE9 Compat Modes */
+  src: local('Baloo Tammudu 2 Bold'), local('BalooTammudu2-Bold'),
+       url('../fonts/baloo-tammudu-2-v1-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/baloo-tammudu-2-v1-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/baloo-tammudu-2-v1-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/baloo-tammudu-2-v1-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/baloo-tammudu-2-v1-latin-700.svg#BalooTammudu2') format('svg'); /* Legacy iOS */
+}
+body {
+	font-family: 'Baloo Tammudu 2';
+	font-style: normal;
+	font-weight: 400;
+}
+.section-container{
+	min-height: 100%;
+	margin-bottom: 40px;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	height: 100%;
+}
+.navbar-brand {
+	border: 1px solid #007bff;
+	color: white !important;
+	background: #007bff;
+	padding: 3px;
+}
+.form {
+	margin:60px auto 40px;
+	width:100%;
+	max-width:400px;
+	min-width:300px;
+}
+.form .name-of-app{
+	font-size: 2em;
+	font-weight: 600;
+	text-align:center;
+	color:#007bff;
+	margin-bottom:40px;
+}
+.form .input-form{
+	border: 1px solid #fcfcfa;
+	/*text-align:center;*/
+	padding: 20px 10px;
+	margin:auto;
+	border-radius: 10px;
+	width: 300px;
+	background: #fcfcfa;
+}
+.form .input-form h4{
+	padding: 15px 0px;
+}
+.other-form-links{
+	display:flex;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.other-form-links a{
+	padding-top: 10px;
+	font-size: 0.9em;
+}
+.section{
+	width:100%;
+	max-width:600px;
+	min-width:300px;
+	margin:30px auto;
+}
+.section .create-form, .section .data{
+	margin:10px;
+}
+.data h5{
+	padding: 7px 10px;
+	border-bottom: 3px solid #007bff;
+}
+.data ul{
+	list-style-type: none;
+	text-decoration: none;
+	padding: 0px !important;
+}
+.data ul li{
+	padding: 10px;
+	margin: 10px 0px;
+	border: 1px solid #fcfcfa;
+	background-color:#fcfcfa;
+	border-radius:10px;
+}
+li .date{
+	font-size: 0.7em;
+	color:rgba(0,0,0,0.5);
+	margin-top: 1px !important;
+}
+li .data-text p{
+	margin-bottom: 3px !important;
+}
+li .data-text .title {
+	color: #007bff;
+}
+li .data-text .text-class{
+	font-size: 1.1em;
+}
+li .data-text .text-class-2{
+	font-size: 1.0em;
+	color:rgba(0,0,0,0.3);
+	font-weight: 700;
+}
+li .actions{
+	font-weight: 600;
+}
+li.data-list:hover{
+	background-color: rgba(0, 123, 255,0.1);
+	cursor: pointer;
+}
+.date, .actions {
+	display: none;
+}
+.paginate {
+	margin:10px;
+	display: flex;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+footer {
+	/*height: 50px;*/
+	background: #007bff;
+	padding: 8px;
+}
+footer h3{
+	color:#fff;
+	/*padding:5px;*/
+	/*line-height: 50px;*/
+}
+
+
+
+
+
+
+
+
+
+
