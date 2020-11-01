@@ -5,17 +5,18 @@
 		<section class="section">
 			<div class="create-form">
 				<h3>Edit Event</h3>
-				<form action="">
-					<form action="">
+				<form action="{{route('events.update', $event->id)}}" method="POST">
+					@csrf
+					@method('PUT')
 					<div class="form-group">
-						<input type="text" class="form-control" name="event_name" placeholder="Event">
+						<input type="text" class="form-control" name="event_name" placeholder="Event" value="{{$event->event_name}}">
 					</div>
 					<div class="form-group">
-						<input type="text" class="form-control selector" name="event_date" placeholder="Date">
+						<input type="text" class="form-control selector" name="event_date" placeholder="Date" value="{{$event->event_date}}">
 					</div>
 					<hr>
 					<div class="form-group">
-						<input type="text" class="form-control" name="venue" placeholder="Venue">
+						<input type="text" class="form-control" name="venue" placeholder="Venue" value="{{$event->venue}}">
 					</div>
 					<button class="btn-primary btn float-right">Update</button>
 					<div class="clearfix"></div>
