@@ -4,6 +4,8 @@
 
 		<section class="section">
 			<div class="create-form">
+				@include('includes.validation')
+				@include('includes.session')
 				<h3>New Event</h3>
 				<form action="{{route('events.store')}}" method="POST">
 					@csrf

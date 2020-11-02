@@ -57,7 +57,9 @@ class EventController extends Controller
         $event->user_id = Auth::id();
 
         if($event->save()){
-            return redirect('/events');
+            return redirect('/events')->with('success', 'Successfully saved');
+        } else {
+            return redirect('/events')->with('failure', 'Not saved');
         }
     }
 
@@ -108,7 +110,9 @@ class EventController extends Controller
         $event->venue = request('venue');
 
         if($event->save()){
-            return redirect('/events');
+            return redirect('/events')->with('success', 'Successfully updated');
+        } else {
+            return redirect('/events')->with('failure', 'Not updated');
         }
     }
 
@@ -124,7 +128,9 @@ class EventController extends Controller
         $event = Event::where('user_id',Auth::id())->findOrFail($id);
 
         if($event->delete()){
-            return redirect('/events');
+            return redirect('/events')->with('success', 'Successfully deleted');
+        } else {
+            return redirect('/events')->with('failure', 'Not deleted');
         }
 
     }
